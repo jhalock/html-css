@@ -9,23 +9,26 @@
 </head>
 
 <body>
-    <nav class="navbar background">
-        <ul class="nav-List">
+    <nav class="navbar background h-nav-resp">
+        <ul class="navList visiblity-resp">
             <div class="logo"><img src="images/top.jpg" alt="logo" height="50px"></div>
             <li><a href="#Home">Home</a> </li>
             <li><a href="#about us">About us</a> </li>
             <li><a href="#Services">Services</a> </li>
             <li><a href="#Contact">Contact Us</a> </li>
-            <li><a href="signup form.html">Sign up</a> </li>
+            <li><a href="#signup">Sign up</a> </li>
 
         </ul>
-        <div class="rightNav">
+        <div class="rightNav visiblity-resp">
             <input type="text" name="search" id="search">
             <button class="btn-sm">search</button>
         </div>
-
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
     </nav>
-
     <section class="background firstSection">
         <div class="box-main">
             <div class="fhalf">
@@ -54,7 +57,7 @@
 
 
     </section>
-    <section class="section">
+    <section class="section" id="Services">
         <div class="paras">
             <p class="sectionTag textBig">Lest Grow Together </p>
             <p class="sectionSubTag textSmall">Students can fit them around their existing responsibilities and
@@ -86,7 +89,7 @@
             <img src="https://source.unsplash.com/900x900/?webdevelopment,coding" alt="foggy" class="imgFluid">
         </div>
     </section>
-    <hr>
+    
 
     <section class=" section secLeft">
         <div class="paras">
@@ -106,7 +109,7 @@
             <img src="https://source.unsplash.com/900x900/?teachers,educations" alt="foggy" class="imgFluid">
         </div>
     </section>
-    <hr>
+    
     <section class="section">
         <div class="paras">
             <p class="sectionTag textBig">we are giving best Online Education in nepal </p>
@@ -127,8 +130,8 @@
             <img src="https://source.unsplash.com/900x900/?nature,everest" alt="foggy" class="imgFluid">
         </div>
     </section>
-    <hr>
-    <section class="contact">
+    
+    <section class="contact" id="Contact">
         <h2 class="contactForm">contact us </h2>
         <div class="form">
             <label for="full name">full name</label>
@@ -139,15 +142,20 @@
             <label for="full name">email address</label>
 
             <input type="email" name="email" id="email" placeholder=" email.....">
-            
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
         </div>
         <button class="btn btndark">submit
 
         </button>
     </section>
+    <footer class="background">
+        <p class="textFooter">all right reserved &copy; jhalakman </p>
+    </footer>
+        <script src="js/responsive.js"></script>
+
 
 </body>
 
